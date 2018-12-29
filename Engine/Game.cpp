@@ -49,7 +49,7 @@ void Game::UpdateModel()
 	}
 	if (!gameIsOver && !isTitleShown)
 	{
-
+		// ten testowy komentarz
 		snekMoveCounter++;
 		if (wnd.kbd.KeyIsPressed(VK_UP))
 		{
